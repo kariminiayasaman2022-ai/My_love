@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>دوست دختر برنامه نویس ❤️</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Tahoma', sans-serif;
+            background: linear-gradient(145deg, #0b0b1a, #1a1a3e);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border-radius: 50px;
+            padding: 40px 35px;
+            max-width: 650px;
+            width: 100%;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 40px 80px rgba(0, 0, 0, 0.8);
+            text-align: center;
+            transition: 0.4s;
+        }
+        .container:hover {
+            border-color: #ff6bcb88;
+            transform: scale(1.01);
+        }
+        .emoji-top {
+            font-size: 90px;
+            display: block;
+            animation: float 3.5s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-18px); }
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 900;
+            background: linear-gradient(135deg, #f7971e, #ffd200);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 5px 0 10px;
+        }
+        .sub {
+            color: #b8a5ff;
+            font-size: 19px;
+            border-bottom: 2px dashed rgba(255, 255, 255, 0.1);
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .code-block {
+            background: #13101e;
+            border-radius: 25px;
+            padding: 25px 20px;
+            text-align: left;
+            direction: ltr;
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+            line-height: 2;
+            color: #b7f0b7;
+            border-right: 6px solid #ff6bcb;
+            box-shadow: inset 0 0 30px #00000066;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-break: break-word;
+            margin-bottom: 30px;
+        }
+        .code-block .c { color: #7a7a9a; }
+        .code-block .k { color: #ff79c6; }
+        .code-block .s { color: #f1fa8c; }
+        .code-block .f { color: #50fa7b; }
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .btn {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #fff;
+            padding: 16px 22px;
+            border-radius: 60px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: 0.25s;
+            backdrop-filter: blur(8px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+        .btn:hover {
+            background: #ff6bcb;
+            border-color: #ff6bcb;
+            transform: translateY(-4px);
+            box-shadow: 0 14px 35px #ff6bcb66;
+            color: #0b0b1a;
+        }
+        .btn-gold {
+            background: rgba(255, 215, 0, 0.06);
+            border-color: #ffd70055;
+        }
+        .btn-gold:hover {
+            background: #ffd700;
+            border-color: #ffd700;
+            box-shadow: 0 14px 35px #ffd70066;
+            color: #0b0b1a;
+        }
+        .footer-area {
+            margin-top: 28px;
+            color: #6a6a8e;
+            font-size: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 22px;
+        }
+        .footer-area .hl {
+            color: #ff6bcb;
+            font-weight: 800;
+        }
+        @media (max-width: 480px) {
+            .container { padding: 25px 15px; }
+            h1 { font-size: 24px; }
+            .code-block { font-size: 14px; padding: 18px; }
+            .btn { font-size: 16px; padding: 14px 16px; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <span class="emoji-top">👩🏻‍💻</span>
+    <h1>دوست‌دختر برنامه‌نویس</h1>
+    <div class="sub">حالا دیگه باگ‌ها عاشقتم می‌کنن 😂</div>
+    <div class="code-block">
+        <span class="c">// وقتی دوست‌دخترت برنامه‌نویسه</span>
+        <br>
+        <span class="k">function</span> <span class="f">loveYou</span>() {
+        <br>
+        &nbsp;&nbsp;<span class="k">while</span> (true) {
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;console.log(<span class="s">"❤️ دوستت دارم بی‌نهایت"</span>);
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span class="k">if</span> (you.happy) <span class="k">break</span>;
+        <br>
+        &nbsp;&nbsp;}
+        <br>
+        &nbsp;&nbsp;<span class="k">return</span> <span class="s">"💖 تا آخرین commit"</span>;
+        <br>
+        }
+        <br><br>
+        <span class="c">// خروجی: همیشه عشق ❤️</span>
+    </div>
+    <div class="btn-group">
+        <button class="btn" onclick="showLove()">❤️ دریافت کد عشق</button>
+        <button class="btn btn-gold" onclick="shareLove()">📤 برای دوستات بفرست</button>
+    </div>
+    <div class="footer-area">
+        💕 <span class="hl" id="loveDisplay">روی دکمه بزن تا عشق رو ببینی</span>
+    </div>
+</div>
+<script>
+    function showLove() {
+        const el = document.getElementById('loveDisplay');
+        const msgs = [
+            'کد عشق: printf("دوستت دارم ❤️");',
+            '✅ کد ارسال شد! (به قلب تو)',
+            '💖 خطای ۴۰۴ نشد! عشق پیدا شد.',
+            '😎 این کد رو فقط به برنامه‌نویس‌های واقعی بده.',
+            '🌸 return "I love you 3000";',
+            '🔥 تابع عشق با موفقیت اجرا شد!'
+        ];
+        el.textContent = msgs[Math.floor(Math.random() * msgs.length)];
+        el.style.color = '#ffd700';
+    }
+    function shareLove() {
+        const el = document.getElementById('loveDisplay');
+        el.textContent = '📲 لینک کپی شد! (توی ذهنت)';
+        el.style.color = '#50fa7b';
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText('👩🏻‍💻 دوست دختر برنامه‌نویس دارم! 😎');
+        }
+    }
+</script>
+</body>
+</html>
